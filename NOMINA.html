@@ -175,7 +175,7 @@
           name="viewport">
     <meta content="telephone=no" name="format-detection">
 
-    <title>Calculadora de sueldo neto - Santander SmartBank</title>
+    <title>Calculadora de nóminas</title>
     <link as="style" href="https://fonts.googleapis.com/css?family=Open%20Sans%3A400%2C600%2C700%2C800%3Dsubset%3Dlatin&#038;display=swap"
           rel="preload"/>
     <link href="https://fonts.googleapis.com/css?family=Open%20Sans%3A400%2C600%2C700%2C800%3Dsubset%3Dlatin&#038;display=swap"
@@ -203,16 +203,12 @@
     <meta content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' name='robots'/>
 
     <!-- This site is optimized with the Yoast SEO plugin v18.4.1 - https://yoast.com/wordpress/plugins/seo/ -->
-    <meta content="Conoce cuál será tu sueldo mensual a partir del sueldo bruto anual, de forma rápida y sencilla con la calculadora de sueldo neto de Santander SmartBank."
-          name="description"/>
     <link href="https://santandersmartbank.es/calculadora-sueldo-neto/" rel="canonical"/>
     <meta content="es_ES" property="og:locale"/>
     <meta content="article" property="og:type"/>
-    <meta content="Calculadora de sueldo neto - Santander SmartBank" property="og:title"/>
     <meta content="Conoce cuál será tu sueldo mensual a partir del sueldo bruto anual, de forma rápida y sencilla con la calculadora de sueldo neto de Santander SmartBank."
           property="og:description"/>
     <meta content="https://santandersmartbank.es/calculadora-sueldo-neto/" property="og:url"/>
-    <meta content="Santander SmartBank" property="og:site_name"/>
     <meta content="2021-12-22T14:44:03+00:00" property="article:modified_time"/>
     <meta content="summary_large_image" name="twitter:card"/>
     <script class="yoast-schema-graph" type="application/ld+json">{
@@ -702,9 +698,6 @@ function checkIfImageExists(url, callback) {
                     <p>Calcula tu nómina de forma sencilla. En función de tu situación laboral, familiar y retenciones
                         aplicadas, conocerás el <strong>sueldo neto del que dispondrás**.</strong></p>
                 </div>
-                <!--div class="col-xs-12 col-sm-6 bc-calc">
-                    <img data-img="https://santandersmartbank.es/wp-content/uploads/2019/09/cabecera-calculadora.jpg" src="https://santandersmartbank.es/wp-content/uploads/2019/09/cabecera-calculadora.jpg" class="img img-responsive" alt="Calculadora Santander">
-                </div-->
                 <div class="clearfix"></div>
             </div>
         </article>
@@ -781,7 +774,7 @@ function checkIfImageExists(url, callback) {
                         </label><input class="edad" id="edad" name="edad" type="text"><label> años </label>
                             <span class="error-edad"></span>
                         </div>
-                        <div class="sitFamiliar">
+                        <div class="sitFamiliar" hidden>
                             <label class="lad_izq" for="situacion_familiar">Situación familiar </label>
                             <select id="situacion_familiar" name="situacion_fam">
                                 <option selected="selected" value="A">Soltero</option>
@@ -798,7 +791,7 @@ function checkIfImageExists(url, callback) {
                                 <option value="C">Igual o superior al 65%</option>
                             </select>
                         </div>
-                        <div class="descendientesNomina">
+                        <div class="descendientesNomina" hidden>
                             <label class="lad_izq" for="cargos">Ascendientes y descendientes a cargo </label>
 
                             <select id="cargos" name="cargos">
@@ -815,9 +808,9 @@ function checkIfImageExists(url, callback) {
                                 <option value="10">10 personas</option>
                             </select>
                         </div>
-                        <div class="descendientes">
+                        <div class="descendientes" hidden>
                         </div>
-                        <div class="efectosFiscales"><label class="lad_izq" for="exclusiva">Tiene los hijos en exclusiva
+                        <div hidden class="efectosFiscales"><label class="lad_izq" for="exclusiva">Tiene los hijos en exclusiva
                             a efectos fiscales</label><input id="exclusiva" name="exclusiva" type="checkbox" value="Si"><label
                                 for="exclusiva" style="color: #f0f0f0">.</label></div>
                         <input class="boton" id="calcular_nomina" name="calcular" onclick="bannerrandom(); f_calcular_nomina(); window.location='#resultados_calculadora_nomina';"
