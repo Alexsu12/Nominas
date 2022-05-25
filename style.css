@@ -1,0 +1,774 @@
+@media (max-width: 991px) {
+	#calculadora select[name|="genen_descen"]{
+		width: 200px;
+	}
+	
+	#calculadora select[name|="discapacidad_descen"]{
+		width: 200px;
+	}
+
+	.bc-calc img{
+		margin-top: 50px;
+	}
+}
+@media (min-width: 1170px) {
+	.landing {
+		width: 1170px;
+	}
+	.col-sm-6 {
+		width: 50%;
+	}
+	.textHeader {
+		margin-top: 120px !important;
+	}
+	.calculadoranomina{
+		padding: 20px 40px 30px;
+	}
+	.contratobox {
+		margin-top: 14px !important;
+	}
+	.tcontrato #general {
+		min-height: 40px !important;
+	}
+	#calculadora select{
+		width: 355px;
+	}
+	.catProfesional {
+		margin-bottom: 21px !important;
+	}
+	.movGeografica, .comAutonoma {
+		margin-top: 21px;
+	}
+	.edadNomina, .sitFamiliar, .discapacidadNomina {
+		margin-top: 21px;
+	}
+	#calculadora .lad_izq {
+		width: 190px;
+	}
+	.descendientes {
+		width: 64%;
+		margin-left: 27px;
+	}
+	#resultados_calculadora_nomina {
+		width: 70%;
+	}
+	.retenciones {
+		margin-top: 40px;
+	}
+	.bloque-faq-calculadora {
+		width: 1170px;
+		margin: 0 auto 50px;
+	}
+	.imgFaq {
+		float: left;
+		width: 18%;
+		margin-right: 3%;
+		margin-bottom: 25px;
+	}
+	.imgFaq img {
+		max-height: 210px;
+	}
+	.calcuirpf .textoFaq {
+		margin-bottom: 25px;
+	}
+	.textoFaq {
+		float: left;
+		width: 72% !important;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1169px) {
+	.landing {
+		width: 95% !important; 
+		margin: 0 auto;
+	}
+	
+	.col-sm-6 {
+		width: 50%;
+	}
+	.textHeader {
+		margin-top: 140px !important;
+		width: 100% !important
+	}
+	.btnCalcu.textHeader {
+		margin-top: 20px !important;
+    	height: 30px !important;
+	}
+	.calculadoranomina{
+		padding: 20px 40px 30px;
+	}
+	.contratobox {
+		margin-top: 14px !important;
+	}
+	.tcontrato #general {
+		min-height: 40px !important;
+	}
+	#calculadora select{
+		width: 355px;
+	}
+	.catProfesional {
+		margin-bottom: 21px !important;
+	}
+	.movGeografica, .comAutonoma {
+		margin-top: 21px;
+	}
+	.edadNomina, .sitFamiliar, .discapacidadNomina {
+		margin-top: 21px;
+	}
+	#calculadora .lad_izq {
+		width: 190px;
+	}
+	.descendientes {
+		width: 83%;
+		margin-left: 5%;
+	}
+	#calculadora select[name|="genen_descen"]{
+		width: 135px !important;
+	}
+	#calculadora select[name|="discapacidad_descen"]{
+		width: 200px !important;
+		margin-right: 0px !important
+	}
+	#resultados_calculadora_nomina {
+		width: 100%;
+	}
+	.retenciones {
+		margin-top: 40px;
+	}
+	.bloque-faq-calculadora {
+		width: 90%;
+		margin: 0 auto 50px;
+	}
+	.imgFaq {
+		float: left;
+		width: 18%;
+	margin-right: 3%;
+	margin-bottom: 25px;
+	max-height: 210px;
+	}
+	.imgFaq img {
+		max-height: 210px;
+	}
+	.textoFaq {
+		float: left;
+		width: 72% !important;
+		margin-bottom: 50px;
+	}
+	.cabeceranomina {
+		margin-right: 80px;
+	}
+}
+.clearfix { clear: both; }
+@media (max-width: 767px) {
+	.bloque-faq-calculadora {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.imgFaq {
+		width: 100%;
+		max-width: 500px;
+		margin: 20px auto 0;
+
+	}
+	.textoFaq {
+		width: 100%;
+		max-width: 500px;
+		margin: 10px auto 10px;
+		padding: 0 14px;
+	}
+	.landing {
+		width: 100% !important; 
+	}
+	.col-sm-6 {
+		width: 100%;
+	}
+	.textHeader {
+	  margin-top: 95px !important;
+	  padding: 0 20px; 
+	}
+	.calculadoranomina {
+		margin: 0 auto;
+	}
+	.calculadoranomina{
+		padding: 20px 20px 30px;
+	}
+	.contratobox {
+		margin-top: 2px !important;
+	}
+	
+	.tcontrato #general {
+		min-height: 20px !important;
+	}
+	#calculadora select{
+		width: 100%;
+	}
+	.catProfesional {
+		margin-bottom: 6px !important;
+	}
+	.movGeografica, .comAutonoma {
+		margin-top: 13px;
+	}
+	.edadNomina, .sitFamiliar, .discapacidadNomina {
+		margin-top: 15px;
+	}
+	#calculadora .lad_izq {
+		width: 100%;
+	}
+	.descendientes {
+		width: 94%;
+		margin-left: 4%;
+	}
+	.box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8, .box-9, .box-10 {
+		border: 1px solid #c2c2c2;
+		padding: 5px 10px;
+	}
+	#calculadora select[name|="genen_descen"], #calculadora select[name|="discapacidad_descen"] {
+		width: 100% !important;
+		margin: 6px 0 0px !important;
+	}
+		#netom{
+			margin-left: 0px;
+		}
+		.retenedor{
+				max-width: 540px;
+		}
+		.bc-calc img{
+		max-height: 130px;
+			margin: 10px auto 0px;
+	}
+		#calculadora .lad_izq{
+			width: auto;
+			margin-right: 20px;
+		}
+
+		#calculadora input[name|="edad"]{
+			padding: 5px 12px 5px 10px;
+			margin-left: 10px;
+			max-width: 40px;
+		}
+		#calculadora select[name|="genen_descen"]{
+		width: 130px;
+		margin: 0 16px;
+	}
+	
+	#calculadora select[name|="discapacidad_descen"]{
+		width: 160px;
+	}
+	.retenciones{
+		margin-top: 20px;
+	}
+	.retenciones p:nth-of-type(1){
+		margin-top: 10px;
+	}
+	#resultados_calculadora_nomina {
+		width: 100%;
+	}
+	#resultados_calculadora_nomina div:nth-of-type(1){
+		text-align: center;
+	}
+	.btnCalcu {
+		height: 51px;
+		position: relative;
+	}
+}
+@media(max-width: 540px){
+	h1 {
+			font-size: 1.7em;
+	}
+
+	.retenedor{
+				max-width: 100%;
+		}
+
+	.calculadoranomina{
+			padding: 20px;
+		}
+		#calculadora .lad_izq{
+			display: block;
+		}
+		#calculadora select {
+			width: 265px;
+	}
+	#netoa, .bruto {
+		margin-bottom: 15px;
+	}
+	#resultados_calculadora_nomina div:nth-of-type(1){
+		text-align: center;
+	}
+
+	[type="checkbox"]:not(:checked) + label, [type="checkbox"]:checked + label,
+	#calculadora input[type="text"]{
+		margin-left: 0px;
+	}
+	#calculadora select[name|="discapacidad_descen"]{
+		width: 263px;
+			margin-top: 10px;
+	}
+
+	#calculadora .descendientes input[name|="edad"]{
+		margin-left: 10px;
+	}
+	.npagas label:nth-of-type(3),
+	.tcontrato label:nth-of-type(3){
+		margin-left: 10px;
+	}
+	#resultados_calculadora_nomina{
+		margin: 20px 15px 0px 0px;
+	}
+	#resultados_calculadora_nomina .retenciones strong{
+		float: none;
+		display: block;
+	}
+	.btnCalcu {
+		margin-top: 10px !important; 
+	}
+}
+@media(min-width: 768px){
+	.btnCalcu {
+		height: 151px;
+		position: relative;
+	}
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+	font-display: swap;
+}
+
+
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+	position: absolute;
+	left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+	position: relative;
+	padding-left: 1.95em;
+	cursor: pointer;
+	margin-right: 14px;
+	vertical-align: top;
+	padding-top: 2px;
+	margin-left: 11px;
+}
+.contratobox {
+	margin-left: -19px !important;
+	margin-right: 25px !important;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+	content: '';
+	position: absolute;
+	left: 0; top: 0;
+	width: 1.5em; 
+	height: 1.5em;
+	border: 1px solid #eff1f2;
+	background-color: #ffffff;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+	content: '\2713\0020';
+	position: absolute;
+	top: .25em; left: .22em;
+	font-size: 1.3em;
+	line-height: 0.8;
+	color: #636363;
+	transition: all .2s;
+	font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', Arial;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+	opacity: 0;
+	transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+	opacity: 1;
+	transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+	box-shadow: none;
+	border-color: #bbb;
+	background-color: #ddd;
+}
+[type="checkbox"]:disabled:checked + label:after {
+	color: #999;
+}
+[type="checkbox"]:disabled + label {
+	color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+	border: 1px solid #000000;
+}
+
+[class|=error]{
+	display: block;
+		color: #ec0000;
+		font-size: 12px;
+}
+
+#pextras,
+#netoa,
+.bruto,
+.segsocial,
+.irpf,
+.retencion{
+	width: 100px;
+}
+
+.bruto,
+.segsocial,
+.irpf,
+.retencion{
+		background-color: #ffffff!important;
+		color: #000000!important;
+}
+
+.segsocial,
+.irpf,
+.retencion{
+		font-size: 15px!important;
+}
+
+.content {
+		width: 1170px;
+		margin: 0 auto;
+		display: block;
+		max-width: 98%;
+}
+
+.c_red{
+	color: #f07694;
+}
+
+.cabeceranomina h1{
+	font-weight: 900;
+	margin-top: 30px;
+}
+
+.calculadoranomina{
+	background-color: #f0f0f0;
+	margin-top: 0px;
+}
+
+#calculadora div{
+	margin-bottom: 6px;
+}
+#calculadora .lad_izq {
+	margin-right: 8px;
+	font-size: 14px;
+	vertical-align: top;
+}
+#calculadora .lad_izq a{
+	text-decoration: none;
+	color: #000000;
+}
+
+#calculadora .lad_izq i{
+	cursor: pointer;
+	margin-left: 3px;
+}
+
+#calculadora input, #calculadora select, #resultados_calculadora_nomina input[disabled="disabled"]{
+	margin-left: 10px;
+	margin-right: 10px;
+		border: 1px solid #eff1f2;
+}
+
+#resultados_calculadora_nomina{
+	display: none;
+}
+
+.tooltip-inner{
+	max-width: 230px;
+		padding: 3px 8px;
+		color: #000000;
+		text-align: left;
+		background-color: #fff;
+		border-radius: 7px;
+		border: 2px solid #eff1f2;
+		font-weight: bold;
+}
+
+.tooltip.in{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.tooltip-arrow{
+	border-bottom-color: #ffffff !important;
+}
+
+#calculadora input[type="text"]{
+	padding: 5px 15px 5px 10px;
+		margin-left: 12px;
+	font-size: 14px;
+}
+
+#calculadora input[type="button"]{
+	margin-left: 0;
+	background-color: #ec0000;
+	padding: 6px 30px;
+	color: white;
+	font-size: 16px;
+	border: 0px;
+	border-radius: 30px;
+}
+
+#calculadora select{
+	padding: 5px 15px 5px 10px;
+	vertical-align: top;
+	font-size: 14px !important;
+}
+
+
+#calculadora input[name="salario"]{
+	max-width: 100px;
+}
+
+/*#calculadora label[for="movili"],
+#calculadora label[for="exclusiva"]{
+	color: #f7f9fa;
+}*/
+
+#calculadora input[name|="edad"]{
+	max-width: 50px;
+}
+.content_resultado_nomina {
+	
+	background-color: #ffffff;
+}
+#resultados_calculadora_nomina {
+	margin: 20px 0px 15px 0px;
+	padding-bottom: 20px;
+	padding-top: 50px;
+}
+#resultados_calculadora_nomina .calculos {
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+#resultados_calculadora_nomina .lad_izq{
+	width: 140px;
+	margin-right: 10px;
+}
+
+#resultados_calculadora_nomina .titulo{
+	background-color: #f07694;
+		margin: 0px 0px 20px;
+		color: white;
+		font-size: 16px;
+		padding: 3px 18px;
+}
+
+#resultados_calculadora_nomina input[disabled="disabled"] {
+	background-color: #f07694 !important;
+		color: white !important;
+		border: 0px;
+		height: 30px;
+		text-align: center;
+		font-size: 17px;
+}
+.retenciones #irpf {
+	background-color: #ec0000 !important;
+	color: white !important;
+	border: 0px;
+	text-align: center;
+	height: 40px!important;
+	margin-bottom: 20px!important;
+	font-size: 20px!important;
+	width: 178px!important;
+}
+
+#netoa,
+.bruto{
+	margin-bottom: 20px;
+}
+
+#netom{
+		height: 40px!important;
+		margin-bottom: 20px!important;
+		font-size: 20px!important;
+		width: 178px!important;
+}
+
+.ocultaextras{
+	display: none;
+}
+
+#resultados_calculadora_nomina .retenciones div{
+	text-align: center;
+}
+
+#resultados_calculadora_nomina .retenciones .lad_izq{
+	display: block;
+		margin: 0 auto;
+		font-size: 18px;
+		background-color: #f07694;
+		min-width: 178px;
+		margin-bottom: 1px;
+		padding: 10px;
+		color: #ffffff;
+		font-weight: 500;
+}
+#resultados_calculadora_nomina .retenciones .neto_m{
+		background-color: #ec0000;
+		color: white;
+		border: 0px;
+		height: 40px;
+		text-align: center;
+		font-size: 17px;
+}
+
+#resultados_calculadora_nomina .retenciones p{
+	display: block;
+}
+
+#calculadora [class|="box"]{
+	margin-bottom: 13px;
+}
+
+#calculadora .title_descendientes{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eff1f2;
+}
+
+#calculadora select[name|="genen_descen"]{
+	width: 220px;
+		margin: 0px 25px;
+}
+
+#calculadora select[name|="discapacidad_descen"]{
+	width: 220px;
+}
+
+.landing {
+	margin: 0px auto 50px;
+	display: block;
+	font-weight: 500;
+}
+
+.landing label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-size: 14px;  
+	line-height: 18px;  
+}
+.landing input[type="radio"], input[type="checkbox"] {
+		margin: 4px 0 0;
+}
+.col-sm-6 {
+		float: left;
+}
+
+.textHeader p {
+	margin: 15px 0 25px;
+}
+.row::after {
+	clear: both;
+}
+.sueldoBruto .lad_izq {
+	margin-top: 7px;
+}
+.tcontrato {
+	margin-top: 7px;
+}
+.tcontrato .lad_izq {
+	margin-top: 16px;
+}
+.npagas .lad_izq, .movGeografica .lad_izq {
+	margin-top: 3px;
+}
+.edadNomina .lad_izq {
+	margin-top: 6px;
+}
+
+#categoria_profesional, #minusvalia_titular, #comunidad_autonoma {
+	margin-top: 0px;
+}
+.sitFamiliar .lad_izq, .comAutonoma .lad_izq {
+	margin-top: 8px;
+}
+
+.catProfesional .lad_izq {
+	padding-top: 8px;
+}
+.descendientesNomina {
+	margin-top: 17px;
+}
+#calculadora  select {
+	 -webkit-appearance: "listbox";
+	 -moz-appearance: "listbox";
+	 appearance: "listbox";
+}
+.efectosFiscales {
+	margin-top: 21px;
+	margin-bottom: 20px !important;
+}
+.retenciones .lad_izq, .retenciones input {
+	font-weight: bold;
+}
+.landing h1 {
+	font-weight: 400;
+}
+.campOblig {
+	color: #ec0000;
+}
+.legal1 {
+	margin: 15px 0 5px
+}
+.legal, .legal1 {
+	font-size: 10px;
+}
+
+
+.textoFaq h2Â {
+	font-weight: 400;
+	padding-top: 10px;
+}
+.textoFaq p {
+	font-size: 14px;
+font-weight: 300;
+margin-top: 10px;
+}
+
+
+.desktopDevice .imgdesktopcalc, .phoneDevice .imgmobilecalc, .tabletDevice .imgdesktopcalc {
+	display: block;
+}
+.phoneDevice .imgdesktopcalc, .desktopDevice .imgmobilecalc , .tabletDevice .imgmobilecalc {
+	display: none;
+}
+
+.btnIRPF {
+	margin-top: 17px;
+}
+
+.btnCalcu a {
+	position: absolute;
+    bottom: 27px;
+    right: 3px;
+    text-align: center;
+    border: 1px solid #ec0000;
+    border-radius: 60px;
+    padding: 5px 29px;
+    color: #ec0000;
+    transition: 0.5s color ease-in-out;
+    transition: 0.5s background-color ease-in-out;
+}
+.btnCalcu a:hover {
+	background-color: #ec0000 !important;
+    color: #ffffff !important;
+    transition: 0.5s color ease-in-out;
+    transition: 0.5s background-color ease-in-out;
+}

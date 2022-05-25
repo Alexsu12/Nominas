@@ -176,6 +176,7 @@
     <meta content="telephone=no" name="format-detection">
 
     <title>Calculadora de nóminas</title>
+    <link rel="stylesheet" href="style.css">
     <link as="style" href="https://fonts.googleapis.com/css?family=Open%20Sans%3A400%2C600%2C700%2C800%3Dsubset%3Dlatin&#038;display=swap"
           rel="preload"/>
     <link href="https://fonts.googleapis.com/css?family=Open%20Sans%3A400%2C600%2C700%2C800%3Dsubset%3Dlatin&#038;display=swap"
@@ -618,7 +619,6 @@ function checkIfImageExists(url, callback) {
 
 <!--CSS-->
 
-<link href="https://santandersmartbank.es/wp-content/themes/santander_wp/css/style-calculadora.css" rel="stylesheet">
 
 
 <!-- COMENTADO 17 DIC -->
@@ -696,7 +696,7 @@ function checkIfImageExists(url, callback) {
                 <div style="margin-top: 0">
                     <h1 style="color:rgb(199, 147, 212);">Calculadora de Sueldo Neto</h1>
                     <p>Calcula tu nómina de forma sencilla. En función de tu situación laboral, familiar y retenciones
-                        aplicadas, conocerás el <strong>sueldo neto del que dispondrás**.</strong></p>
+                        aplicadas, conocerás el <strong style="color: #cc9cc2;">sueldo neto del que dispondrás**.</strong></p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -824,29 +824,29 @@ function checkIfImageExists(url, callback) {
                 </div>
                 <div class="col-xs-12 col-md-10" id="resultados_calculadora_nomina">
                     <div class="content_resultado_nomina">
-                        <p class="titulo">Resultado</p>
+                        <p class="titulo" style="background-color:#f07694">Resultado</p>
                         <div class="col-xs-12 col-sm-6 calculos">
-                            <div><label class="lad_izq">Sueldo bruto anual</label><input class="bruto" disabled="disabled"
+                            <div><label class="lad_izq">Sueldo bruto anual</label><input style="background-color:#f07694" class="bruto" disabled="disabled"
                                                                                          id="bruto" name=""
                                                                                          type="text" value="">
                             </div>
-                            <div><label class="lad_izq c_red">Sueldo neto anual</label><input disabled="disabled" id="netoa"
+                            <div><label class="lad_izq c_red">Sueldo neto anual</label><input style="background-color:#f07694" disabled="disabled" id="netoa"
                                                                                               name=""
                                                                                               type="text"
                                                                                               value=""></div>
-                            <div><label class="lad_izq">Cuotas a la S. Social</label><input class="segsocial"
+                            <div><label class="lad_izq">Cuotas a la S. Social</label><input style="background-color:#f07694" class="segsocial"
                                                                                             disabled="disabled"
                                                                                             id="segsocial" name=""
                                                                                             type="text"
                                                                                             value=""></div>
-                            <div><label class="lad_izq">Retenciones</label><input class="irpf" disabled="disabled" id="irpf"
+                            <div><label class="lad_izq">Retenciones</label><input style="background-color:#f07694" class="irpf" disabled="disabled" id="irpf"
                                                                                   name="" type="text" value="">
                             </div>
-                            <div><label class="lad_izq">% Retención</label><input class="retencion" disabled="disabled"
+                            <div><label class="lad_izq">% Retención</label><input style="background-color:#f07694" class="retencion" disabled="disabled"
                                                                                   id="retencion" name=""
                                                                                   type="text" value=""></div>
                             <div class="c_red ocultaextras"><label class="lad_izq">2 Pagas Extra de:</label><input
-                                    disabled="disabled" id="pextras" name="" type="text" value=""></div>
+                                     disabled="disabled" id="pextras" name="" type="text" value=""></div>
                         </div>
                         <div class="col-xs-12 col-sm-6 retenciones">
                             <div><label class="lad_izq">Sueldo neto mensual</label><input disabled="disabled" id="netom" name=""
